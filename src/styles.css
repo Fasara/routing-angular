@@ -4,3 +4,15 @@ h2 {
     text-align: center;
     color: blueviolet;
 }
+
+.nav-items {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-link {
+    border: 2px solid darkmagenta;
+    background-color: bisque;
+}
