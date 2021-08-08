@@ -8,6 +8,9 @@ import { ComponentTwoComponent } from './component-two/component-two.component';
 import { ComponentThreeComponent } from './component-three/component-three.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { PostOneComponent } from './post-one/post-one.component';
+import { PostTwoComponent } from './post-two/post-two.component';
+import { PostThreeComponent } from './post-three/post-three.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HeaderComponent } from './header/header.component';
     ComponentTwoComponent,
     ComponentThreeComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    PostOneComponent,
+    PostTwoComponent,
+    PostThreeComponent
   ],
   imports: [
     BrowserModule,
